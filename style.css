@@ -235,11 +235,6 @@ font-weight: bold;
     outline: none;
  }
 
- .loginoptions{
-    padding-top: 15px;
-    padding-bottom: 10px;
-    text-align: center;
- }
  ::placeholder{
     color: white;
     font-family: Arial;
