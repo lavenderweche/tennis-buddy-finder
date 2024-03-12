@@ -1,105 +1,247 @@
- *{
-    margin:0;
-    padding: 0;
-}
+ * {
+     margin: 0;
+     padding: 0;
+ }
 
-.main{
-    width:100%;  
-    background:linear-gradient(to bottom, #d1ede1, #c2e5d7, #b2decd, #a2d7c3, #92cfba, #83c7b0, #74bfa7, #64b79d, #52ac90, #3fa183, #299777, #028c6a), url(tenniscourt2.jpg);
-    background-position: center;
-    background-size: cover;
-    height:100vh;
-}
+ .main {
+     width: 100%;
+     background: linear-gradient(to bottom, #d1ede1, #c2e5d7, #b2decd, #a2d7c3, #92cfba, #83c7b0, #74bfa7, #64b79d, #52ac90, #3fa183, #299777, #028c6a), url(tenniscourt2.jpg);
+     background-position: center;
+     background-size: cover;
+     height: 100vh;
+ }
 
-.navmenu{
-    width:100%;
-    height:75px;
-    margin:auto;
-}
+ .navmenu {
+     width: 100%;
+     height: 75px;
+     margin: auto;
+ }
 
-.icon{
-    width:200px;
-    float: left;
-    height:70px;
-}
-.sitelogo{
+ .icon {
+     width: 200px;
+     float: left;
+     height: 70px;
+ }
+
+ .sitelogo {
+     color: #028c6a;
+     padding-left: 10px;
+     float: left;
+     padding-top: 10px;
+     font-size: 30px;
+     font-family: Arial;
+ }
+
+ .sitemenu {
+     width: 400px;
+     float: left;
+     height: 70px;
+ }
+
+ ul {
+     float: left;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ ul li {
+     list-style: none;
+     margin-left: 65px;
+     margin-top: 25px;
+     font-size: 14px;
+ }
+
+ ul li a {
+     transition: 0.5s ease-in-out;
+     text-decoration: none;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+ }
+
+ ul li a:hover {
+     color: #028c6a;
+ }
+
+ .searchbar {
+     width: 350px;
+     float: left;
+     margin-left: 260px;
+ }
+
+ .searchoption {
+     font-family: Arial, Helvetica, sans-serif;
+     width: 200px;
+     height: 40px;
+     background: transparent;
+     border: 1px solid #028c6a;
+     border-right: none;
+     margin-top: 15px;
+     color: white;
+     font-size: 16px;
+     padding: 10px;
+     border-bottom-left-radius: 5px;
+     border-top-left-radius: 5px;
+ }
+
+ .btn {
+     height: 40px;
+     width: 100px;
+     font-size: 15px;
+     background: #028c6a;
+     border: 3px solid #028c6a;
+     margin-top: 15px;
+     color: white;
+     border-bottom-right-radius: 5px;
+     border-top-right-radius: 5px;
+
+ }
+
+ .btn:focus {
+     outline: none
+ }
+
+ .searchoption:focus {
+     outline: none;
+ }
+
+ .pagecontent {
+     /*The width can be moved back to 100% if this des not work*/
+     width: 1800px;
+     height: auto;
+     margin: auto;
+     color: white;
+     position: relative;
+ }
+
+ .pagecontent .paragraph {
+     padding-left: 20px;
+     padding-bottom: 25px;
+     font-family: Arial;
+     letter-spacing: 1.2px;
+     line-height: 30px;
+ }
+
+ .pagecontent h1 {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 40px;
+     padding-left: 20px;
+     margin-top: 9%;
+     letter-spacing: 2px;
+ }
+
+ .pagecontent .btncontent {
+     width: 210px;
+     height: 50px;
+     background: #028c6a;
+     border: none;
+     font-size: 16px;
+     margin-bottom: 10px;
+     margin-left: 20px;
+     border-radius: 10px;
+     cursor: pointer;
+ }
+
+ .pagecontent .btncontent a {
+     text-decoration: none;
+     color: white;
+     transition: 0.4s ease;
+     border-color: white;
+     font-family: Arial;
+     font-weight: bold;
+ }
+
+ .btncontent:hover {
+     background-color: #92cfba;
+
+ }
+
+ .pagecontent span{
     color: #028c6a;
-    padding-left:10px;
-    float:left;
-    padding-top: 10px;
-    font-size: 30px;
-    font-family:Arial;
-}
+    font-size: 50px;
+ }
 
-.sitemenu{
-    width:400px;
-    float:left;
-    height:70px;
-}
-
-ul{
-    float:left;
-    display:flex;
-    justify-content:center;
-    align-items: center;
-}
-ul li{
-    list-style: none;
-    margin-left: 65px;
-    margin-top: 25px;
-    font-size: 14px;
-}
-
-ul li a{
-    transition: 0.5s ease-in-out;
-    text-decoration: none;
-    color:white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
-ul li a:hover{
-    color:#028c6a;
-}
-
-.searchbar{
-    width: 350px;
-    float: left;
-    margin-left: 260px;
-}
-
-.searchoption{
-    font-family: Arial, Helvetica, sans-serif;
-    width: 200px;
-    height: 40px;
-    background: transparent;
-    border: 1px solid #028c6a;
-    border-right: none;
-    margin-top: 15px;
-    color: white;
-    font-size: 16px;
-    padding: 10px;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
-}
-
-.btn{
-    height: 40px;
-    width: 100px;
-    font-size: 15px;
+ 
+ .form{
+    width:250px;
+    height:380px;
+    background: linear-gradient(to bottom,#92cfba, #83c7b0);
+    position:absolute;
+    top:-20px;
+    left: 1450px;
+    border-radius: 10px;
+    padding: 25px;
+ }
+ .loginbtn{
+    width: 240px;
+    height: 50px;
     background: #028c6a;
-    border: 3px solid #028c6a;
-    margin-top: 15px;
+    border:none;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    color:white;
+ }
+ .loginbtn:hover{
+    background: white;
+    color: #028c6a;
+ }
+ .loginbtn a{
+text-decoration: none;
+color: white;
+font-weight: bold;
+ }
+ .form h2{
+    width:220px;
+    font-family: Arial;
+    text-align: center;
+    color: #92cfba;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+ }
+
+ .form input{
+    width:240px;
+    height:36px;
+    background: transparent;
+    border-bottom: 1px solid #028c6a;
+    border-top: none;
+    border-right: none;
+    border-left: none;
     color: white;
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: Arial;
+ }
 
-}
+ .form .registerlink{
+    font-family:Arial;
+    font-size: 15px;
+    padding-top: 20px;
+    text-align: center;
+ }
 
-.btn:focus{
-    outline:none
-}
-
-.searchoption:focus{
+ .form .link a{
+    text-decoration:none;
+    color:#028c6a;
+ }
+ .form input:focus{
     outline: none;
-}
+ }
+
+ .loginoptions{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+ }
+ ::placeholder{
+    color: white;
+    font-family: Arial;
+ }
+
