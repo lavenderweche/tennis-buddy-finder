@@ -398,7 +398,7 @@
      color: #d1ede1;
  }
 
- /* This is for the responsiveness functionality for the registration form*/
+ /* This is for the responsiveness functionality for the registration page that has the registration form*/
  @media(max-width:600px) {
      .container {
          min-width: 250px;
