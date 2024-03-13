@@ -11,13 +11,14 @@
  body {
      min-height: 100vh;
      display: flex;
-     align-items: center;
      justify-content: center;
+     align-items: center;
      padding: 20px;
      justify-content: center;
-     align-items: center;
      background: linear-gradient(to bottom, #d1ede1, #c2e5d7, #b2decd, #a2d7c3, #92cfba, #83c7b0, #74bfa7, #64b79d, #52ac90, #3fa183, #299777, #028c6a)
  }
+
+
 
  /* Main page content */
  .main {
@@ -188,7 +189,7 @@
  }
 
  /* Main page content registration and login form */
- .form {
+ .homepageform {
      width: 250px;
      height: 380px;
      background: linear-gradient(to bottom, #92cfba, #83c7b0);
@@ -222,7 +223,7 @@
      font-weight: bold;
  }
 
- .form h2 {
+ .homepageform h2 {
      width: 220px;
      font-family: Arial;
      text-align: center;
@@ -233,7 +234,7 @@
      padding: 8px;
  }
 
- .form input {
+ .homepageform input {
      width: 240px;
      height: 36px;
      background: transparent;
@@ -248,19 +249,19 @@
      font-family: Arial;
  }
 
- .form .registerlink {
+ .homepageform .registerlink {
      font-family: Arial;
      font-size: 15px;
      padding-top: 20px;
      text-align: center;
  }
 
- .form .link a {
+ .homepageform .link a {
      text-decoration: none;
      color: #028c6a;
  }
 
- .form input:focus {
+ .homepageform input:focus {
      outline: none;
  }
 
@@ -279,10 +280,11 @@
      max-width: 700px;
      width: 100%;
      background: white;
-     padding: 25px;
-     margin: 0 25px;
+     padding: 50px;
+     margin: auto;
      border-radius: 10px;
      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+     justify-content: center;
  }
 
  .formtitle {
