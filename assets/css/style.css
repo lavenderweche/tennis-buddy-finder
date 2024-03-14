@@ -31,27 +31,24 @@
  }
 
  /* Nav bar menu */
- .navmenu {
+ .navbar {
      width: 100%;
      height: 75px;
      margin: auto;
- }
-
- /* Icon to be used on page */
- .icon {
-     width: 200px;
-     float: left;
-     height: 70px;
+     background-color: #a2d7c3;
+     border-radius: 5px;
+     display: flex;
  }
 
  /* Site logo */
- .sitelogo {
-     color: #028c6a;
+ .sitelogo a {
+    text-decoration: none;
+     color: white;
      padding-left: 10px;
-     float: left;
      padding-top: 10px;
-     font-size: 30px;
-     font-family: Arial;
+     float: left;
+     font-size: 20px;
+     font-family: "Poppins", sans-serif;
  }
 
  /* Site menu*/
@@ -63,7 +60,7 @@
 
  /* Site menu as a list */
  ul {
-     float: left;
+    float: left;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -71,9 +68,9 @@
 
  ul li {
      list-style: none;
-     margin-left: 65px;
+     margin-left: 40px;
      margin-top: 25px;
-     font-size: 14px;
+     font-size: 20px;
  }
 
  ul li a {
