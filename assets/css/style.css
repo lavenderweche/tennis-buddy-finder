@@ -18,12 +18,24 @@
      background: linear-gradient(to bottom, #d1ede1, #c2e5d7, #b2decd, #a2d7c3, #92cfba, #83c7b0, #74bfa7, #64b79d, #52ac90, #3fa183, #299777, #028c6a)
  }
 
-
+/*Footer on all pages details */
+#footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height: 1.5rem;
+    background: #028c6a;
+    border-color: none;
+    font-size: x-small;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
 
  /* Main page content */
  .main {
      width: 100%;
-     background: linear-gradient(to bottom, #d1ede1, #c2e5d7, #b2decd, #a2d7c3, #92cfba, #83c7b0, #74bfa7, #64b79d, #52ac90, #3fa183, #299777, #028c6a), url(tenniscourt2.jpg);
+     background: linear-gradient(to bottom, #d1ede1, #c2e5d7, #b2decd, #a2d7c3, #92cfba, #83c7b0, #74bfa7, #64b79d, #52ac90, #3fa183, #299777, #028c6a);
      background-position: center;
      background-size: cover;
      height: 100vh;
