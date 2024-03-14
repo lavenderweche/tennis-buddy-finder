@@ -1,39 +1,44 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Tennis Buddy Match Dublin Documentation
 
-Welcome,
+Welcome to the documentation for Tennis Buddy Match Dublin - your go-to platform for finding tennis partners and organizing matches in Dublin.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Overview 
+TennisMatch Dublin is a web application designed to connect tennis enthusiasts across Dublin, fostering a vibrant community of players who share a passion for the game. Whether you're a beginner looking to improve your skills or a seasoned pro seeking competitive matches, TennisMatch Dublin has something for everyone.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Features
+1.  **Find Tennis Partners:** Easily search for tennis partners based on skill level, availability, and location.
 
-## Codeanywhere Reminders
+2. **Organize Matches:** Join organized matches held regularly throughout Dublin, including competitive tournaments and friendly rallies.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+3. **Community Engagement:** Connect with like-minded players, share tips and advice, and stay updated on the latest tennis events in Dublin.
 
-`python3 -m http.server`
+4. **User Profiles:** Create a personalized profile to showcase your tennis skills and preferences, making it easier for others to find and connect with you. 
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Installation
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+To run Tennis Buddy Match Dublin locally, follow these steps: 
+1. Clone the repository:  https://github.com/lavenderweche/tennis-buddy-finder.git
+2. Navigate to the project directory
+3. Install any dependencies 
+4. Start the development server
 
-`http_server`
+## Contributing
+We welcome contributions from the community to improve TennisMatch Dublin. If you have ideas for new features, bug fixes, or enhancements, feel free to open a pull request or submit an issue on our GitHub repository.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Contact Us 
+If you have questions, feedback, or just want to chat tennis? Get in touch with me via [email](mailto:lavenderweche@gmail.com)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+Below are some screenshot of how the site currently looks. 
+## NB: The site is still a work in progress and will be enhanced as we proceed with the course. In the end, it will look amazing and work so well! For example, there will be a gallery page added and an About Us page which are being worked on. 
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![The landing page.]
+![alt text](image.png)
 
-To log into the Heroku toolbelt CLI:
+![The registration page.]
+![alt text](image-1.png)
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![The contact us page.]
+![alt text](image-2.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+![The contact us page has a short video to motivate players to get on the court and play.]
+![alt text](image-3.png)
