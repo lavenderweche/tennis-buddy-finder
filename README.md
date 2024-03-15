@@ -16,11 +16,17 @@ TennisMatch Dublin is a web application designed to connect tennis enthusiasts a
 
 ## Installation
 
-To run Tennis Buddy Match Dublin locally, follow these steps: 
-1. Clone the repository:  https://github.com/lavenderweche/tennis-buddy-finder.git
-2. Navigate to the project directory
-3. Install any dependencies 
-4. Start the development server
+To run Tennis Buddy Match Dublin locally, go to the site address which can be visited on:  https://github.com/lavenderweche/tennis-buddy-finder.git
+
+## Encountered bugs/errors and resolutions (just to name a few for now)
+
+- **Missing Closing Tags**: Forgetting to close HTML tags. Resolution: Double-checked the HTML markup for missing closing tags and ensured to close any where the errors appeared. This only happened when I deleted an already closed tag because the tool is helpful in the sense that it closed every tag that I opened but when I deleted it for some reason and forgot to close it back, it would cause an error.
+
+- **CSS Selectors Not Targeting Elements**: Sometimes I would put the wrong "target" for example targetting a ul that is in a different section from the one that I actually wanted to target. Resolution: Reviewed the CSS selectors to ensure they matched the HTML elements to be styled, and used browser developer tools to inspect element styles for debugging. 
+
+- **Responsive Design Problems**: Layout not adapting properly to different screen sizes or devices. Resolution: I had to use the CSS media queries to adjust layout and styling based on viewport size, and test the website on various devices to ensure it displays correctly. The google chrome inspecting tool was also very useful because I got to test the different devices.
+
+- **Image Loading Errors**: This was a huge issue for me, I was always mixing up the file paths then the images were not loading or displaying incorrectly. Resolution: Checked the image file paths and updated them. 
 
 ## Contributing
 We welcome contributions from the community to improve TennisMatch Dublin. If you have ideas for new features, bug fixes, or enhancements, feel free to open a pull request or submit an issue on our GitHub repository.
