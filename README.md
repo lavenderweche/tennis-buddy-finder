@@ -98,15 +98,18 @@ We welcome contributions from the community to improve TennisMatch Dublin. If yo
 If you have questions, feedback, or just want to chat tennis? Get in touch with me via [email](mailto:lavenderweche@gmail.com)
 
 Below are some screenshot of how the site currently looks. 
-## NB: The site is still a work in progress and will be enhanced as we proceed with the course. In the end, it will look amazing and work so well! For example, there will be a gallery page added and an About Us page which are being worked on. 
-- The landing Page
-![alt text](image-4.png)
+**NB: The site is still a work in progress and will be enhanced as we proceed with the course. In the end, it will look amazing and work so well! For example, there will be a gallery page added and an About Us page which are being worked on.**
+- The landing page
+  ![image](https://github.com/lavenderweche/tennis-buddy-finder/assets/30617453/f5cd12df-6882-4a29-b560-f2cb09aea24a)
+
 
 - The Registration Page
-![alt text](image-5.png)
+![image](https://github.com/lavenderweche/tennis-buddy-finder/assets/30617453/1f9c11b4-eb42-4574-8983-34fcef9018bb)
+
 
 - Contact Us Page
-![alt text](image-6.png)
+![image](https://github.com/lavenderweche/tennis-buddy-finder/assets/30617453/eaa25600-8842-44b1-b55b-999ad01263da)
+
 
 ## ACKNOWLEDGEMENTS
 - Thank you to my mentor for continuous helpful feedback and support throughout the project.
