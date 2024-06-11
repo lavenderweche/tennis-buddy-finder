@@ -9,7 +9,6 @@
   * [Encountered bugs/errors and resolutions (just to name a few for now)](#encountered-bugs-errors-and-resolutions--just-to-name-a-few-for-now-)
   * [Contributing](#contributing)
   * [Contact Us](#contact-us)
-  * [NB: The site is still a work in progress and will be enhanced as we proceed with the course. In the end, it will look amazing and work so well! For example, there will be a gallery page added and an About Us page which are being worked on.](#nb--the-site-is-still-a-work-in-progress-and-will-be-enhanced-as-we-proceed-with-the-course-in-the-end--it-will-look-amazing-and-work-so-well--for-example--there-will-be-a-gallery-page-added-and-an-about-us-page-which-are-being-worked-on)
   * [ACKNOWLEDGEMENTS](#acknowledgements)
 
 # Tennis Buddy Match Intro
@@ -33,14 +32,15 @@ Green (#EAF5F0): Most tennis courts are usually green so I wanted to pick a colo
 
 The website contrastchecker (https://webaim.org/resources/contrastchecker/) came in very handy in this situation and I was able to pick a suitable background for the different site pages. 
 
-![alt text](image-7.png)
+<img width="1353" alt="image" src="https://github.com/lavenderweche/tennis-buddy-finder/assets/30617453/5d0be9b8-d621-4244-b3c4-1271bbc1c85a">
+
 
 ## Typography
 The logo and headings use Poppins.
 The choice of Poppins was selected using Google Fonts.
 The headings decrease in size to ensure responsiveness of the website.
+![image](https://github.com/lavenderweche/tennis-buddy-finder/assets/30617453/5c123f25-fd24-4a63-8244-58c5d152b40e)
 
-![alt text](image-8.png)
 
 
 ## Installation
@@ -50,34 +50,36 @@ To run Tennis Buddy Match Dublin locally, go to the site address which can be vi
 ## Testing
 - HTML
 No errors were returned when passing through the official [HTML validator](https://validator.w3.org/nu/#textarea)
+![image](https://github.com/lavenderweche/tennis-buddy-finder/assets/30617453/2794247a-adc9-4184-8b43-9e8db8ccc120)
+
 1. The contact.html file
-![alt text](image-9.png)
 
 2. The index.html file
-![alt text](image-10.png)
 
 3. The register.html file (this file did not pass the validation check and I do not seem to undeerstand the errors, they will be fixed after resubmission of the project is graded)
-![alt text](image-12.png)
+<img width="1235" alt="image" src="https://github.com/lavenderweche/tennis-buddy-finder/assets/30617453/b282533a-1f83-4d8f-a321-a66a0e3ef147">
+
 
 4. The style.css file
-![alt text](image-11.png)
+![image](https://github.com/lavenderweche/tennis-buddy-finder/assets/30617453/e0840cd1-a8e1-4aff-b09d-86ed3cae0346)
+
 
 ## Deployment
 1. Click on the settings link in the menu from Github (https://github.com/lavenderweche/tennis-buddy-finder/):
-![alt text](image-13.png)
+<img width="1215" alt="image" src="https://github.com/lavenderweche/tennis-buddy-finder/assets/30617453/e5c7a649-3eaa-401c-82cd-f50dd22d1091">
 
 2. In the left hand menu, click on the pages link:
-![alt text](image-14.png)
+<img width="1232" alt="image" src="https://github.com/lavenderweche/tennis-buddy-finder/assets/30617453/ebd244e5-8489-4bd2-ae81-b91e95f27bc7">
+
 
 3. In the sources area of the GitHub pages, select the main option from the dropdown as the source:
-![alt text](image-16.png)
+<img width="1226" alt="image" src="https://github.com/lavenderweche/tennis-buddy-finder/assets/30617453/82e94670-d372-4a4c-a4f2-36e4ef3c8ec2">
+
 
 4. Save this by clicking the save button (since this was already done before, the save option is greyed out and can be seen in the above image)
 
 5. Since this is not the first deployment, the site was already live. However, the details now show when the last deployment was
-![alt text](image-17.png)
-
-
+<img width="1224" alt="image" src="https://github.com/lavenderweche/tennis-buddy-finder/assets/30617453/26ad4621-78f5-4293-b966-c61fa250fc46">
 
 ## Encountered bugs/errors and resolutions (just to name a few for now)
 
