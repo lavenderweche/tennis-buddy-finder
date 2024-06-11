@@ -1,6 +1,7 @@
 /* Google poppins font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -61,7 +62,7 @@ body {
 /* Site logo */
 .sitelogo a {
     text-decoration: none;
-    color: white;
+    color: black;
     padding-left: 10px;
     padding-top: 10px;
     float: left;
@@ -99,7 +100,7 @@ ul li {
 ul li a {
     transition: 0.5s ease-in-out;
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: bold;
 }
 
@@ -126,7 +127,7 @@ ul li a:hover {
     border: 1px solid #028c6a;
     border-right: none;
     margin-top: 15px;
-    color: white;
+    color: black;
     font-size: 16px;
     padding: 10px;
     border-bottom-left-radius: 5px;
@@ -142,7 +143,7 @@ ul li a:hover {
     background: #028c6a;
     border: 3px solid #028c6a;
     margin-top: 15px;
-    color: white;
+    color: black;
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
 
@@ -165,7 +166,7 @@ ul li a:hover {
     width: 1800px;
     height: auto;
     margin: auto;
-    color: white;
+    color: black;
     position: relative;
 }
 
@@ -227,7 +228,7 @@ ul li a:hover {
 .homepageform {
     width: 250px;
     height: 380px;
-    background:#EAF5F0;
+    background: #EAF5F0;
     position: absolute;
     top: -20px;
     left: 1450px;
@@ -266,7 +267,7 @@ ul li a:hover {
     width: 220px;
     font-family: Arial;
     text-align: center;
-    color: white;
+    color: black;
     font-size: 20px;
     border-radius: 10px;
     margin: 2px;
@@ -282,7 +283,7 @@ ul li a:hover {
     border-top: none;
     border-right: none;
     border-left: none;
-    color: white;
+    color: black;
     font-size: 14px;
     letter-spacing: 1px;
     margin-top: 30px;
@@ -310,7 +311,7 @@ ul li a:hover {
 
 
 ::placeholder {
-    color: white;
+    color: black;
     font-family: Arial;
 }
 
@@ -449,7 +450,7 @@ footer {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    color: white;
+    color: black;
     background: #3fa183;
 }
 
@@ -520,13 +521,13 @@ footer {
 .contact .contactusdetails h2 {
     font-size: 36px;
     font-weight: 500;
-    color: white;
+    color: black;
 }
 
 
 .contact .contactusdetails p {
     font-weight: 300;
-    color: white;
+    color: black;
 }
 
 
@@ -565,7 +566,7 @@ footer {
     align-items: center;
     border-radius: 50%;
     font-size: 22px;
-    color: #fff;
+    color: black;
 
 
 }
@@ -577,7 +578,7 @@ footer {
     display: flex;
     margin-left: 20px;
     font-size: 16px;
-    color: #fff;
+    color: black;
     flex-direction: column;
     font-weight: 300;
 
@@ -586,7 +587,7 @@ footer {
 
 
 .contactcontainer .contactdetails .box .text h3 {
-    color: #028c6a;
+    color: black;
     font-weight: 700;
 
 
@@ -640,7 +641,7 @@ body {
     align-items: center;
     padding: 20px;
     justify-content: center;
-    background:#EAF5F0;
+    background: #EAF5F0;
 }
 
 
@@ -788,7 +789,7 @@ ul li a:hover {
     width: 1800px;
     height: auto;
     margin: auto;
-    color: white;
+    color: black;
     position: relative;
 }
 
@@ -850,7 +851,7 @@ ul li a:hover {
 .homepageform {
     width: 250px;
     height: 380px;
-    background:#EAF5F0;
+    background: #EAF5F0;
     position: absolute;
     top: -20px;
     left: 1450px;
@@ -1209,7 +1210,7 @@ footer {
 
 
 .contactcontainer .contactdetails .box .text h3 {
-    color: #028c6a;
+    color: #EAF5F0;
     font-weight: 700;
 
 
@@ -1273,7 +1274,7 @@ footer {
 
 .contactform .inputbox input[type="submit"] {
     width: 200px;
-    background: #3fa183;
+    background: #EAF5F0;
     color: black;
     border: none;
     cursor: pointer;
